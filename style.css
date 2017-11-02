@@ -4,7 +4,10 @@
 }
 
 body {
-
+	padding: 20px;
+	margin: 150px;
+	margin-top: 20px;
+	background-color: #666;
 }
 
 header {
@@ -25,8 +28,9 @@ NAV {
 
 section {
 	padding: 20px;
+	border: 2px solid;
   margin-bottom: 20px;
-  background-color: #333;
+  background-color: #ccc;
   color: white;
   float: left;
   width: 50%;
@@ -39,7 +43,7 @@ aside {
   margin-bottom: 20px;
   background-color: #ccc; 
   float: right;
-  width: 100%;
+  width: 96%;
 
 }
 
@@ -54,11 +58,11 @@ footer {
 }
 
 #article {
-	float: center;
-	clear: both;
-	width: 675px;
-	height: 200px;
-	background: #ccc;
+	border: 2px solid;
+	padding: 10px;
+	width: 90%;
+	height: 100px;
+	background-color: #666;
 }
 
 #headings {
@@ -68,4 +72,16 @@ footer {
 	width: 600px;
 	height: 25px;
 	background: #ccc;
+}
+
+#paragraph {
+  clear: both;
+  background-color: #eee;
+  overflow: auto;
+  width: 100%;
+}
+
+#division {
+	background-color: #6ea3da
+  padding: 20px;
 }
